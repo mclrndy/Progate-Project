@@ -17,6 +17,9 @@
     margin:center;
     font-size:20px;
   }
+ 
+ .menu-icon{
+  display:none;
 
 }
 
@@ -71,7 +74,8 @@
   .menu-icon{
     padding:unset;
     float:right;
-    display:unset;
+    display:block;
+   
   }
 .menu{
   margin-right:unset;
