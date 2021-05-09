@@ -26,7 +26,7 @@
 
 *{
   float:unset;
-  width:100%;
+  /* width:100%; */
   padding:unset;
   margin:unset;
 }
@@ -61,8 +61,6 @@
 
   .top-wrapper{
     text-align: center;
-   
- 
   }
   .explore {
     margin-left:30%;
@@ -73,8 +71,11 @@
   .menu-icon{
     padding:unset;
     float:right;
+    display:unset;
   }
-
+.menu{
+  margin-right:unset;
+}
   .explore{
     text-align: center;
     width:50%;
@@ -85,12 +86,20 @@
 
   .menu-icon {
     display: block;
+  }
 
+  .btn-wrapper{
+    align-items:center;
+    margin:unset;
   }
 
   .btn{
-    text-align: center;
+    margin:unset;
+    margin-left:50%;
+    transform:translate(-50%,50%);
   }
+
+
 
   .footer-h2{
     font-size: 10px;
